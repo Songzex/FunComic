@@ -7,19 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fun-comic-app" />
         <module name="fun-comic-common" />
+        <module name="fun-app" />
         <module name="fun-comic-getway" />
+        <module name="fun-admin" />
         <module name="fun-comic-service" />
-        <module name="fun-comic-admin" />
         <module name="fun-comic-es" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="fun-apps" target="1.8" />
+      <module name="fun-comic-admin" target="1.8" />
+      <module name="fun-comic-app" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FunComic" options="-parameters" />
+      <module name="fun-admin" options="-parameters" />
+      <module name="fun-app" options="-parameters" />
+      <module name="fun-apps" options="-parameters" />
       <module name="fun-comic-admin" options="-parameters" />
       <module name="fun-comic-app" options="-parameters" />
       <module name="fun-comic-common" options="-parameters" />

@@ -11,6 +11,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/fun-comic-app/pom.xml" />
         <option value="$PROJECT_DIR$/fun/pom.xml" />
       </set>
     </option>
