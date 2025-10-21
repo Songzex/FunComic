@@ -12,10 +12,12 @@
     <modules>
         <module>fun-comic-common</module>
         <module>fun-comic-service</module>
-        <module>fun-comic-app</module>
-        <module>fun-comic-admin</module>
         <module>fun-comic-getway</module>
         <module>fun-comic-es</module>
+        <module>fun-admin</module>
+        <module>fun-app</module>
+        <module>fun-comic-pushclient</module>
+        <module>fun-comic-pushserver</module>
     </modules>
 
     <properties>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/fun-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fun-app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-app/src/main/java" charset="UTF-8" />
@@ -11,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/fun-comic-es/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-getway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-getway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fun-comic-pushclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fun-comic-pushserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun-comic-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fun/src/main/java" charset="UTF-8" />

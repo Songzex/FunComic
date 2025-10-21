@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.scy.mapper.RolesMapper">
 
-    <resultMap id="BaseResultMap" type="com.scy.pojo.Roles">
+    <resultMap id="BaseResultMap" type="com.scy.user.pojo.Roles">
             <id property="rolesid" column="RolesID" jdbcType="INTEGER"/>
             <result property="rolesvalue" column="RolesValue" jdbcType="VARCHAR"/>
     </resultMap>
