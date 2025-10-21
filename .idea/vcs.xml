@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fun-coimc-apps" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/fun-comic-admin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/fun-comic-app" vcs="Git" />
   </component>
