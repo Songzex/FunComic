@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "linfeng.jwt",
+      "type": "com.scy.utils.JwtUtil",
+      "sourceType": "com.scy.utils.JwtUtil"
+    }
+  ],
+  "properties": [
+    {
+      "name": "linfeng.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.scy.utils.JwtUtil"
+    },
+    {
+      "name": "linfeng.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.scy.utils.JwtUtil"
+    }
+  ],
+  "hints": []
+}
