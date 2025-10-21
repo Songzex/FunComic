@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fun-comic-app" />
+        <module name="fun-comic-common" />
+        <module name="fun-comic-getway" />
+        <module name="fun-comic-service" />
+        <module name="fun-comic-admin" />
+        <module name="fun-comic-es" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FunComic" options="-parameters" />
+      <module name="fun-comic-admin" options="-parameters" />
+      <module name="fun-comic-app" options="-parameters" />
+      <module name="fun-comic-common" options="-parameters" />
+      <module name="fun-comic-es" options="-parameters" />
+      <module name="fun-comic-getway" options="-parameters" />
+      <module name="fun-comic-service" options="-parameters" />
+    </option>
+  </component>
+</project>

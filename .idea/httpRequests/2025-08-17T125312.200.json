@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "msg": "success",
+  "result": [
+    {
+      "name": "For you",
+      "id": 1,
+      "subModules": [
+        {
+          "name": null,
+          "type": "This week‘s update",
+          "books": [
+            {
+              "name": "The first chapter",
+              "postUrl": "https://pic4.zhimg.com/v2-fa6e33bd820e828b8cc5a880ecb5a6bb_r.jpg",
+              "author": null,
+              "type": null,
+              "comicId": "tf12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adult",
+      "id": 1,
+      "subModules": [
+        {
+          "name": null,
+          "type": "Top 9 Best Series",
+          "books": [
+            {
+              "name": "The first chapter",
+              "postUrl": "https://pic4.zhimg.com/v2-fa6e33bd820e828b8cc5a880ecb5a6bb_r.jpg",
+              "author": null,
+              "type": null,
+              "comicId": "tf12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": null,
+      "id": null,
+      "subModules": [
+        {
+          "name": null,
+          "type": "Most Viewed",
+          "books": [
+            {
+              "name": "The first chapter",
+              "postUrl": "https://pic4.zhimg.com/v2-fa6e33bd820e828b8cc5a880ecb5a6bb_r.jpg",
+              "author": null,
+              "type": null,
+              "comicId": "tf12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Action",
+      "id": 1,
+      "subModules": [
+        {
+          "name": null,
+          "type": "This week‘s update",
+          "books": [
+            {
+              "name": "The first chapter",
+              "postUrl": "https://pic4.zhimg.com/v2-fa6e33bd820e828b8cc5a880ecb5a6bb_r.jpg",
+              "author": null,
+              "type": null,
+              "comicId": "tf12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
