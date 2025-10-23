@@ -12,6 +12,7 @@
         <module name="fun-app" />
         <module name="fun-comic-getway" />
         <module name="fun-admin" />
+        <module name="fun-comic-chat" />
         <module name="fun-comic-service" />
         <module name="fun-comic-pushclient" />
         <module name="fun-comic-es" />
@@ -31,6 +32,7 @@
       <module name="fun-apps" options="-parameters" />
       <module name="fun-comic-admin" options="-parameters" />
       <module name="fun-comic-app" options="-parameters" />
+      <module name="fun-comic-chat" options="-parameters" />
       <module name="fun-comic-common" options="-parameters" />
       <module name="fun-comic-es" options="-parameters" />
       <module name="fun-comic-getway" options="-parameters" />

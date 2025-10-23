@@ -4,223 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ef197c-5908-44bf-a213-3dde34680425" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fun-comic-pushclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun-comic-pushserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/pojo/Chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/Adopter.java" afterDir="false" />
+    <list default="true" id="a8ef197c-5908-44bf-a213-3dde34680425" name="Changes" comment="003">
+      <change afterPath="$PROJECT_DIR$/fun-comic-chat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fun-comic-chat/src/main/java/com/scy/chat/ChatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fun-comic-chat/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b72004cb-6196-4459-93ed-21b0b9a84bc0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b72004cb-6196-4459-93ed-21b0b9a84bc0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/ComicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/ComicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/AppChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/AppChapterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/AppComicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/AppComicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppChapterServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppChapterServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppComicServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppComicServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppUploadServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/comic/service/impl/AppUploadServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/pay/AppPayConicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/pay/AppPayConicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/service/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/service/AppUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/service/impl/AppUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/business/user/service/impl/AppUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/common/interceptor/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/common/interceptor/AuthorizationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/common/resolver/LoginUserHandlerMethodArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/src/main/java/com/scy/common/resolver/LoginUserHandlerMethodArgumentResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/FunComicAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/FunComicAppApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/ComicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/ComicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/AppChapterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/AppChapterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/AppComicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/AppComicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppChapterServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppChapterServiceimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppComicServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppComicServiceimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppUploadServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/comic/service/impl/AppUploadServiceimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/pay/AppPayConicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/pay/AppPayConicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/service/AppUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/service/AppUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/service/impl/AppUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/business/user/service/impl/AppUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/common/interceptor/AuthorizationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/common/interceptor/AuthorizationInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-app/target/classes/com/scy/common/resolver/LoginUserHandlerMethodArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/fun-app/target/classes/com/scy/common/resolver/LoginUserHandlerMethodArgumentResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/comic/AddChapterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/comic/AddChapterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/comic/AddComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/comic/AddComic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/comic/ChapterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/comic/ChapterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/comic/ResponseComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/comic/ResponseComic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/recommend/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/recommend/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/recommend/ComicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/recommend/ComicBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/recommend/SubModules.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/recommend/SubModules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/recommend/Swiper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/recommend/Swiper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/recommend/TypesOfHomePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/recommend/TypesOfHomePages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/search/SearchDRO.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/search/SearchDRO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/user/DeviceIdRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/user/DeviceIdRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/user/EditUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/user/EditUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/dto/user/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/src/main/java/com/scy/modles/user/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/comic/AddChapterDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/comic/AddComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/comic/ChapterDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/comic/ResponseComic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/recommend/Categories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/recommend/ComicBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/recommend/SubModules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/recommend/Swiper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/recommend/TypesOfHomePages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/search/SearchDRO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/user/DeviceIdRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/user/EditUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-common/target/classes/com/scy/dto/user/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/admin/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/config/GoogleDriveConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/config/GoogleDriveConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/config/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/config/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/config/MInIoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/config/MInIoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/config/netty/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/config/netty/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/config/netty/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/config/netty/SpringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/AddFeedsFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/AddFeedsFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/DoenShoucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/DoenShoucan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/GetComicFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/GetComicFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/GetComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/GetComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/GetNovelsFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/GetNovelsFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/Jinbi.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/Jinbi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/LoginFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/LoginFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/RegisterFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/RegisterFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/ResCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/ResCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/RidoDateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/RidoDateDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/RidoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/RidoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/RidoPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/modles/RidoPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/vos/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/vos/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/dto/vos/MusicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/vos/MusicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/ChapterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/dao/ChapterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/ComicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/dao/ComicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/PermissionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/PermissionsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/RolesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/RolesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/RolesPermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/RolesPermissionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/UserPaycomicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/UserPaycomicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/UserRolesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/dao/UserRolesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/mapper/mogomapper/Mongomapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mogomapper/Mongomapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/Chapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/pojo/Comic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/Permissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/Rido.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/Rido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/RolesPermisson.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/RolesPermisson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/UserPaycomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/UserPaycomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/pojo/UserRoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/Adopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/pojo/Adopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/ChatHoristry.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/ChatHoristry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/Danmu.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/Danmu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/FavoriteFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/FavoriteFolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/FavoriteFolderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/FavoriteFolderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/LIkeResocrce.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/LIkeResocrce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/MongMHostiry.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/MongMHostiry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/MongoChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/MongoChapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/MongoNvlesChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/MongoNvlesChapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/RidoDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/RidoDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/pojo/mongodb/SecondComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/common/mongodb/SecondComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/ChapterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/ChapterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/ComicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/ComicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/GoogleDriveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/impl/GoogleDriveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/RolesPermissonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/RolesPermissonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/RolesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/RolesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/UserPaycomicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/UserPaycomicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/UserRolesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/UserRolesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/ChapterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/impl/ChapterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/ComicProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/impl/ComicProcessingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/ComicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/comic/service/impl/ComicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/GoogleDriveServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/PermissionsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/PermissionsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/RolesPermissonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/RolesPermissonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/RolesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/RolesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/UserPaycomicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/UserPaycomicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/UserRolesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/UserRolesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/java/com/scy/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/ChapterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/ChapterMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/ComicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/ComicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/PermissionsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/PermissionsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/RolesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/RolesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/RolesPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/RolesPermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserPaycomicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserPaycomicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserRolesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/src/main/resources/mapper/UserRolesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/admin/user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/config/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/config/MInIoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/config/netty/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/config/netty/SpringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/AddFeedsFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/DoenShoucan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/GetComicFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/GetComment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/GetNovelsFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/Jinbi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/LoginFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/RegisterFrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/ResCollections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/RidoDateDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/RidoDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/RidoPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/vos/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/dto/vos/MusicInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/ChapterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/ComicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/PermissionsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/RolesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/RolesPermissionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/UserPaycomicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/UserRolesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/mapper/mogomapper/Mongomapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/Chapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/Comic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/Permissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/Rido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/Roles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/RolesPermisson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/UserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/UserPaycomic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/UserRoles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/Adopter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/ChatHoristry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/Danmu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/FavoriteFolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/FavoriteFolderState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/LIkeResocrce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/MongMHostiry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/MongoChapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/MongoNvlesChapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/RidoDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/pojo/mongodb/SecondComment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/ChapterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/ComicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/RolesPermissonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/RolesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/UserPaycomicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/UserRolesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/ChapterServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/ComicProcessingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/ComicServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/EmailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/PermissionsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/RolesPermissonServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/RolesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/UserPaycomicServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/UserRolesServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/com/scy/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/ChapterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/ChapterMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/ComicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/ComicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/PermissionsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/PermissionsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/RolesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/RolesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/RolesPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/RolesPermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserPaycomicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserPaycomicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserRolesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-service/target/classes/mapper/UserRolesMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,6 +24,7 @@
         <option value="Mapper" />
         <option value="Interface" />
         <option value="Kotlin Class" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -242,18 +33,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SongzZex"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SongzZex&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Songzex/FunComic.git",
-    "accountId": "4d06e982-e6af-415f-b0fb-c900f2a30f8a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Songzex/FunComic.git&quot;,
+    &quot;accountId&quot;: &quot;4d06e982-e6af-415f-b0fb-c900f2a30f8a&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -300,6 +91,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ChatApplication.executor": "Run",
     "Spring Boot.FunComicAppApplication (1).executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -369,13 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FunComicAppApplication (1)">
-    <configuration name="generated-requests | #43" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="43" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #48" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="48" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ChatApplication (1)">
     <configuration name="generated-requests | #49" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="49" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -385,6 +171,26 @@
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="fun-comic-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.funcomicadmin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fun-comic-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scy.chat.ChatApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scy.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fun-comic-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scy.chat.business.ChatApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -418,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ChatApplication (1)" />
+        <item itemvalue="Spring Boot.ChatApplication" />
         <item itemvalue="Spring Boot.FunComicAppApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests | #51" />
         <item itemvalue="HTTP Request.generated-requests | #49" />
-        <item itemvalue="HTTP Request.generated-requests | #48" />
-        <item itemvalue="HTTP Request.generated-requests | #43" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +273,7 @@
       <workItem from="1761019243310" duration="522000" />
       <workItem from="1761019782646" duration="135000" />
       <workItem from="1761019948642" duration="530000" />
-      <workItem from="1761209269600" duration="2543000" />
+      <workItem from="1761209269600" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -581,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761018399279</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="003">
+      <option name="closed" value="true" />
+      <created>1761211959600</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761211959600</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +417,9 @@
     <MESSAGE value="second" />
     <MESSAGE value="0" />
     <MESSAGE value="001" />
-    <option name="LAST_COMMIT_MESSAGE" value="001" />
+    <MESSAGE value="调整业务模块的目录结构" />
+    <MESSAGE value="003" />
+    <option name="LAST_COMMIT_MESSAGE" value="003" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

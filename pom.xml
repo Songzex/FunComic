@@ -18,6 +18,7 @@
         <module>fun-app</module>
         <module>fun-comic-pushclient</module>
         <module>fun-comic-pushserver</module>
+        <module>fun-comic-chat</module>
     </modules>
 
     <properties>
