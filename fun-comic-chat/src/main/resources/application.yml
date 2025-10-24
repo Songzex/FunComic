@@ -1,2 +1,13 @@
 server:
-  port: 8080
+  port: 8081
+spring:
+  application:
+    name: fun-comic-chat
+  rabbitmq:
+    host: 8.159.134.0
+    port: 5672
+    username: guest
+    password: guestsccycy@@1314
+    virtualHost: /
+netty:
+  port: 8088
