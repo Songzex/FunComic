@@ -10,7 +10,8 @@
     {
       "name": "linfeng.jwt.expire",
       "type": "java.lang.Long",
-      "sourceType": "com.scy.utils.JwtUtil"
+      "sourceType": "com.scy.utils.JwtUtil",
+      "defaultValue": 0
     },
     {
       "name": "linfeng.jwt.header",
