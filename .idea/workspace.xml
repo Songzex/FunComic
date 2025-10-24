@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ef197c-5908-44bf-a213-3dde34680425" name="Changes" comment="003">
-      <change afterPath="$PROJECT_DIR$/fun-comic-chat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun-comic-chat/src/main/java/com/scy/chat/ChatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fun-comic-chat/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a8ef197c-5908-44bf-a213-3dde34680425" name="Changes" comment="begin chat模块">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fun-comic-chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fun-comic-chat/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,9 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.fun-comic-common [clean].executor": "Run",
     "Maven.fun-comic-service [clean].executor": "Run",
+    "Maven.fun-comic-service [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -91,6 +89,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ChatApplication (1).executor": "Run",
     "Spring Boot.ChatApplication.executor": "Run",
     "Spring Boot.FunComicAppApplication (1).executor": "Run",
     "WebServerToolWindowFactoryState": "false",
@@ -273,7 +272,7 @@
       <workItem from="1761019243310" duration="522000" />
       <workItem from="1761019782646" duration="135000" />
       <workItem from="1761019948642" duration="530000" />
-      <workItem from="1761209269600" duration="3453000" />
+      <workItem from="1761209269600" duration="5697000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -395,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761211959600</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="begin chat模块">
+      <option name="closed" value="true" />
+      <created>1761212822039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761212822039</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +426,8 @@
     <MESSAGE value="001" />
     <MESSAGE value="调整业务模块的目录结构" />
     <MESSAGE value="003" />
-    <option name="LAST_COMMIT_MESSAGE" value="003" />
+    <MESSAGE value="begin chat模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin chat模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
