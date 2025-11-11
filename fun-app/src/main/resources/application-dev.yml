@@ -1,0 +1,138 @@
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        druid:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            url: jdbc:mysql://8.159.134.0:3306/funcomic?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false?allowPublicKeyRetrieval=true&useSSL=false
+            username: root
+            password: YourStrongPassword123!
+            initial-size: 10
+            max-active: 100
+            min-idle: 10
+            max-wait: 60000
+            pool-prepared-statements: true
+            max-pool-prepared-statement-per-connection-size: 20
+            time-between-eviction-runs-millis: 60000
+            min-evictable-idle-time-millis: 300000
+            test-while-idle: true
+            test-on-borrow: false
+            test-on-return: false
+            stat-view-servlet:
+                enabled: true
+                url-pattern: /druid/*
+                #login-username: admin
+                #login-password: admin
+            filter:
+                stat:
+                    log-slow-sql: true
+                    slow-sql-millis: 1000
+                    merge-sql: false
+                wall:
+                    config:
+                        multi-statement-allow: true
+    mvc:
+      path match:
+        matching-strategy: ant_path_matcher
+
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+    redis:
+      open: true  # 是否开启redis缓存  true开启   false关闭
+      database: 0
+      host: 8.159.134.0
+      port: 6379
+      password:    # 密码（默认为空）
+      timeout: 6000ms  # 连接超时时长（毫秒）
+      jedis:
+        pool:
+          max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          max-idle: 10      # 连接池中的最大空闲连接
+          min-idle: 5       # 连接池中的最小空闲连接
+
+    data:
+      mongodb:
+         database: admin
+         uri:  mongodb://admin:Admin2024@8.159.134.0:27017/admin?authSource=admin #db.auth("admin", "Admin2024")
+    #uri: mongodb://admin:Admin2024@localhost:27017/admin?authSource=admin
+
+    mail:
+      host: smtp.qq.com
+      username: 3328397500@qq.com
+      password: gnyidfbtdvbfdbhc
+      properties:
+        mail.smtp.auth: true
+        mail.smtp.starttls.enable: true
+        mail.smtp.starttls.required: true
+      port: 587
+
+# Swagger 配置
+springfox:
+  documentation:
+    swagger-ui:
+      base-url: /swagger-ui
+      enabled: true
+    swagger:
+      v2:
+        path: /v2/api-docs
+    cache:
+      disabled: false
+
+logging:
+  level:
+    com.scy.comic: DEBUG
+    org.springframework.web: DEBUG
+    io.swagger.*: ERROR
+server:
+  port: 8081
+  servlet:
+    context-path: /  # 如果有上下文路径需要指定
+
+
+# 可选：添加更详细的 Swagger UI 配置
+# Springdoc OpenAPI 配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+  packages-to-scan: com.scy.business
+
+# Google Drive 配置
+#google:
+#  drive:
+#    application-name: comic2025817
+#    credentials-file-path: credentials.json
+#    folder-id: 1nyW3lpdXHJL7lteaMRsvZ2MDxTSp3Jkh
+
+#邮件发送
+qiniu:
+  kodo:
+    # 配置accessKey
+    accessKey: oGONCQtRfbLCdWHb1VeOUPLp8Og4P3J-q80RjiIC
+    # 配置secretKey
+    secretKey: bZ8OtQY_FzGN2_9oMnuedpkE4HaGqx1zdtIKh-b1
+    # 配置空间名称
+    bucket: 2025819
+    # 配置域名 tar -zxvf mysql-5.7.44-linux-glibc2.12-x86_64.tar.gz
+    # 修改密码，SQL语句后面的分号不能丢
+    ##FLUSH PRIVILEGES; 　　 　　 #刷新
+
+    ##复制解压后的mysql目录 # 解压文件至/usr/local/目录
+    #tar -zxvf mysql-5.7.20-linux-glibc2.12-x86_64.tar.gz
+    ## 重命名为 mysql
+    #mv /usr/local/mysql-5.7.44-linux-glibc2.12-x86_64/ /usr/local/mysql
+    #cp -r mysql-5.7.44-linux-glibc2.12-x86_64 /usr/local/mysql
+    #mv /opt/mysql-5.7.44-linux-glibc2.12-x86_64/ /usr/local/mysql
+    #mv /usr/opt/mysql-5.7.20-linux-glibc2.12-x86_64/ /usr/local/mysql
+    #cp /usr/local/mysql/mysql/support-files/mysql.server /etc/init.d/mysql
+    domain: t17umoszz.hd-bkt.clouddn.com
+
+
+    #minio
+minio:
+  endPoint: http://oos.muaiweiyi.com:9000
+  accessKey: 2bU3KmoSnCzjWGX813zv
+  secretKey: cQFJQ5OJZWXGINdOMPcb2k7dQFb8VVCHrLp312Ml
+  bucket: test

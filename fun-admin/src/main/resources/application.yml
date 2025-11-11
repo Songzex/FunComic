@@ -1,0 +1,123 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+    max-http-form-post-size: 100MB
+    max-swallow-size: 1000MB
+    connection-timeout: 600000
+    keep-alive-timeout: 90000
+    max-connections: 8192
+    accept-count: 100
+
+
+
+  port: 8080
+  servlet:
+    context-path:
+netty:
+  port: 8081
+
+spring:
+  # 环境 dev|test|prod
+  profiles:
+    active: dev
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+
+      file-size-threshold: 2MB   # 超过2MB直接写入磁盘（避免内存溢出）
+      resolve-lazily: true       # 延迟解析multipart请求，减少连接占用时间
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+      enabled: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  application:
+    name: fun-admin
+  data:
+    mongodb:
+      database: admin
+      uri:  mongodb://localhost:27017/?authSource=admin
+
+#  resources:
+#    add-mappings: false
+
+
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 3328397500@qq.com
+    password: your_auth_code  # QQ邮箱授权码
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.scy.pojo.*.entity
+  global-config:
+    #数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID", ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+    banner: false
+  #原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+
+task:
+  pool:
+    # 核心线程池大小
+    core-pool-size: 10
+    # 最大线程数
+    max-pool-size: 30
+    # 活跃时间
+    keep-alive-seconds: 60
+    # 队列容量
+    queue-capacity: 50
+
+linfeng:
+  redis:
+    open: true
+  shiro:
+    redis: false
+  # APP模块，是通过jwt认证的，如果要使用APP模块，则需要修改【加密秘钥】
+  jwt:
+    # 加密秘钥
+#    secret: f4e2e52034348f86b67cde581c0f9eb5
+    secret: "your-super-long-secret-key-string-that-is-at-least-86-characters-long-for-hs512-algorithm-security"
+    # token有效时长，7天，单位秒
+    expire: 604800
+  email:
+    send: 2445465217@qq.com  #发送方的邮箱地址
+#文件大小限制
+qiniu:
+  # 文件大小 单位M
+  max-size: 30
+
+#minio
+minio:
+  endPoint: http://oos.muaiweiyi.com:9000
+  accessKey: 0g6PM3hBlizEL9N5RhGM
+  secretKey: KHKRhl1qmYmBbjlM3QfQd5wIs5zOqxqyTTCs9TiG
+  bucket: test
+
+
+
+
+

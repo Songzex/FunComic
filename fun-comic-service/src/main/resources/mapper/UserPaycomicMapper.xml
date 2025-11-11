@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scy.mapper.UserPaycomicMapper">
+
+    <resultMap id="BaseResultMap" type="com.scy.user.pojo.UserPaycomic">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="userid" column="userid" jdbcType="INTEGER"/>
+            <result property="comicid" column="comicid" jdbcType="INTEGER"/>
+            <result property="type" column="type" jdbcType="VARCHAR"/>
+            <result property="chapterid" column="chapterid" jdbcType="INTEGER"/>
+            <result property="paytime" column="paytime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,userid,comicid,
+        type,chapterid,paytime
+    </sql>
+</mapper>
